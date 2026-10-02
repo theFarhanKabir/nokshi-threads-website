@@ -1,0 +1,20 @@
+{
+  "business": "Nokshi Threads Ltd.",
+  "group": "The Jurists",
+  "business_type": "Private limited company (project scenario)",
+  "origin": "Three founders originally operated as partners; the business later incorporated.",
+  "products": ["Jamdani saris", "Handloom saris"],
+  "supplier_context": "Narayanganj weaver cooperatives",
+  "markets": ["India", "Middle East", "United Kingdom"],
+  "crisis": {
+    "buyer": "London boutique",
+    "quantity": 500,
+    "payment": "Letter of Credit (L/C)",
+    "problems": ["colour bleeding", "thread-count mismatch", "reported mismatch with approved sample and description"],
+    "events": ["A director rushed production and accepted a sub-standard batch.", "The buyer's inspector rejected the shipment.", "L/C payment is blocked because of a documentary discrepancy.", "A company cheque to a weaver bounced.", "A promissory note for credit-bought stock falls due.", "Directors dispute responsibility for approving the batch."]
+  },
+  "instruments": ["cheque", "bill of exchange (only if an actual bill is involved)", "promissory note"],
+  "known_missing_documents": ["partnership deed", "company memorandum and articles", "London sale contract and approved sample", "L/C and bank discrepancy notice", "inspection report", "cheque return notice", "promissory note"],
+  "intended_project_responses": ["Keep the company as the external contracting party on the project facts while separately assessing internal accountability.", "Check the old partnership deed and period of operation before attributing founder rights or liabilities.", "Assess the contract, quality terms, sample, description, evidence, rejection timing and possible remedies.", "Explore a clean replacement batch, appropriate price adjustment, or resale only as options subject to the contract and buyer agreement.", "Ask the bank about the exact L/C discrepancy and whether correction, re-presentation or waiver is possible under the L/C terms.", "Arrange funds and address the weaver payment; check all requirements before discussing statutory consequences.", "Review and honour the promissory note according to its actual terms and maturity.", "Adopt written sample approval and inspection records, authority limits, L/C document checks and cash-flow controls."],
+  "safety": ["A Letter of Credit is a documentary payment arrangement and is not automatically a negotiable instrument.", "No director is automatically personally liable merely because of the defective shipment.", "A buyer is not automatically entitled to reject the entire order; contract, statutory terms, examination, acceptance, breach and circumstances matter.", "A cheque dishonour does not automatically establish section 138 liability; statutory requirements and procedure must be checked.", "Ownership and risk transfer require the actual contract, identification of goods, intention and statutory rules.", "Scenario facts are fictional project assumptions, not verified evidence."]
+}

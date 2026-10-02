@@ -1,0 +1,29 @@
+{
+  "name": "nokshi-threads-crisis-to-compliance",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Nokshi Threads business law gateway with a Next.js frontend and FastAPI backend",
+  "scripts": {
+    "dev": "concurrently -k -n web,api -c cyan,green \"next dev\" \"python -m backend.main --reload\"",
+    "build": "next build",
+    "start": "concurrently -k -n web,api -c cyan,green \"next start\" \"python -m backend.main\"",
+    "start:web": "next start",
+    "start:api": "python -m backend.main",
+    "test": "python -m unittest discover -s backend -p \"test_*.py\""
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "concurrently": "latest",
+    "typescript": "latest"
+  }
+}
